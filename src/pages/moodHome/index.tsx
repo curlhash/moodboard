@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import YouTube from 'react-youtube'
 
-import { Button, Card, CircularProgress, Drawer, Fade, Grid } from '@material-ui/core'
+import { Button, Card, Drawer, Fade, Grid } from '@material-ui/core'
 
 import EmotionCarousel from './emotionCarousel'
 
