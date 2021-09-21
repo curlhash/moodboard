@@ -69,7 +69,7 @@ const MoodHome = () => {
         <Drawer anchor='bottom' open={drawerOpen} onClose={() => setDrawerOpen(false)}>
             <Grid item container justify='center' xs={12}>
             <Card style={{
-                height: '80vh',
+                height: '100vh',
                 width: '100%',
                 padding: 10
             }}>
@@ -92,7 +92,10 @@ const MoodHome = () => {
                         transform: 'translate(-50%, -50%)'
                     }}> Creating your moodboard...</p> || <YouTube videoId={videoId} opts={{
                         width: '100%',
-                        height: '700px'
+                        height: '700px',
+                        playerVars: {
+                            autoplay: 1
+                        }
                     }} />
                 }
                 </Grid>
